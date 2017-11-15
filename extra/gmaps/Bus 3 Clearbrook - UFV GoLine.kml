@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Bus 3 Clearbrook - UFV GoLine</name>
+    <description/>
+    <Style id="icon-503-FF7C2F-labelson">
+      <IconStyle>
+        <color>ff2f7cff</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="line-FF7C2F-4000-nodesc-normal">
+      <LineStyle>
+        <color>ff2f7cff</color>
+        <width>4</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FF7C2F-4000-nodesc-highlight">
+      <LineStyle>
+        <color>ff2f7cff</color>
+        <width>6</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FF7C2F-4000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF7C2F-4000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF7C2F-4000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>UFV To Peardonville and South Fraser   </name>
+      <Placemark>
+        <name>BUS 3-- Stop 1- University of the Fraser Valley</name>
+        <description>Direction:to UFV  |  to Clearbrook</description>
+        <styleUrl>#icon-503-FF7C2F-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -122.282574176788,49.028597064697,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BUS 3-- Stop 2 - Marshall and McCallum</name>
+        <description>Direction:to UFV  |  to Clearbrook</description>
+        <styleUrl>#icon-503-FF7C2F-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -122.293260097504,49.0396965948415,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BUS 3-- Stop 3- Downtown Abbotsford </name>
+        <description>Direction:to UFV  |  to Clearbrook</description>
+        <styleUrl>#icon-503-FF7C2F-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -122.290293574333,49.0485962347181,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BUS 3-- Stop 4- Bourquin Exchange </name>
+        <description>Direction:to UFV  |  to Clearbrook</description>
+        <styleUrl>#icon-503-FF7C2F-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -122.309739589691,49.049021661609,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BUS 3-- Stop 5- George Ferguson and Gladwin</name>
+        <description>Direction:to UFV  |  to Clearbrook</description>
+        <styleUrl>#icon-503-FF7C2F-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -122.315248847008,49.0553709890299,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BUS 3-- Stop 6- Clearbrook and South Fraser </name>
+        <description>Direction:to UFV  |  to Clearbrook</description>
+        <styleUrl>#icon-503-FF7C2F-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -122.337478995323,49.0497248385717,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BUS 3-- Stop 7 - Peardonville and South Fraser </name>
+        <description>Direction:to UFV  |  to Clearbrook</description>
+        <styleUrl>#icon-503-FF7C2F-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -122.348502874374,49.0459767906013,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name/>
+        <styleUrl>#line-FF7C2F-4000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -122.282059192657,49.0287096198896,0
+            -122.281973361969,49.0314530739685,0
+            -122.293045520782,49.0312701817363,0
+            -122.292981147766,49.0332116188119,0
+            -122.292809486389,49.0346606130499,0
+            -122.292573451996,49.0350123043153,0
+            -122.29332447052,49.0358563532078,0
+            -122.293345928192,49.0398513236384,0
+            -122.293410301208,49.0456462737543,0
+            -122.290320396423,49.0456181445595,0
+            -122.290320396423,49.0474605732066,0
+            -122.290277481079,49.0490497888784,0
+            -122.2918009758,49.0490638525072,0
+            -122.295191287994,49.0493310606978,0
+            -122.303109169006,49.0502873729816,0
+            -122.304782867432,49.0504983217444,0
+            -122.304375171661,49.050231119827,0
+            -122.304482460022,49.0468417498245,0
+            -122.306778430939,49.046968327961,0
+            -122.30982542038,49.0493873148707,0
+            -122.309975624084,49.0508499010267,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name/>
+        <styleUrl>#line-FF7C2F-4000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -122.309975624084,49.0508499010267,0
+            -122.310039997101,49.0515389892082,0
+            -122.310469150543,49.0523265068635,0
+            -122.310082912445,49.054323370711,0
+            -122.310898303986,49.0544147745306,0
+            -122.312990427017,49.0550124107482,0
+            -122.314256429672,49.0553920817894,0
+            -122.315248847008,49.0553709890299,0
+            -122.318065166473,49.0552795869684,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name/>
+        <styleUrl>#line-FF7C2F-4000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -122.318065166473,49.0552795869684,0
+            -122.319030761719,49.0552655250979,0
+            -122.320210933685,49.0549842868519,0
+            -122.321573495865,49.0547733571233,0
+            -122.322667837143,49.0547803881287,0
+            -122.324384450912,49.0548928840795,0
+            -122.326498031616,49.0551108442595,0
+            -122.327506542206,49.0550405346284,0
+            -122.329684495926,49.0549842868519,0
+            -122.332313060761,49.0549210080274,0
+            -122.33792424202,49.0548155431407,0
+            -122.337870597839,49.0538663490916,0
+            -122.337913513184,49.052825730345,0
+            -122.337741851807,49.0516303981475,0
+            -122.337478995323,49.0497248385717,0
+            -122.337162494659,49.0474324450381,0
+            -122.336947917938,49.0458502099407,0
+            -122.33726978302,49.0457869194896,0
+            -122.341990470886,49.0458502099407,0
+            -122.345252037048,49.0458853712676,0
+            -122.346110343933,49.0458853712676,0
+            -122.347086668015,49.0459064680518,0
+            -122.348374128342,49.0459697583508,0
+            -122.348535060883,49.046096338707,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Untitled layer</name>
+    </Folder>
+    <Folder>
+      <name>Untitled layer</name>
+    </Folder>
+  </Document>
+</kml>
