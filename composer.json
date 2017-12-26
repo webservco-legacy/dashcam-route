@@ -1,0 +1,8 @@
+{
+    "require": {
+        "captioning/captioning": "2.*"
+    },
+    "autoload": {
+        "psr-4": {"WebServCo\\": "src/WebServCo/"}
+    }
+}
