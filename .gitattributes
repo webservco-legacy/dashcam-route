@@ -1,0 +1,5 @@
+# Line endings: LF in the repository and in working copies
+* text eol=lf
+
+# Binary files: no line-ending conversion
+*.kmz binary
