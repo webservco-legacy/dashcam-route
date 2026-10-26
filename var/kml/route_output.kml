@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Document name</name>
+    <description>Document description</description>
+    <Style id="icon-1899-DB4436-nodesc-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-DB4436-nodesc-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-DB4436-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-DB4436-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-1267FF-5000-nodesc-normal">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-1267FF-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-1267FF-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-1267FF-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-1267FF-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Points layer title</name>
+      <Placemark>
+        <name>2017-01-01 12:00:00 - 12 Km/h</name>
+        <description>Placemark description</description>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>16.360000,48.200000,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2017-01-01 12:00:02 - 24 Km/h</name>
+        <description>Placemark description</description>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>16.361275,48.200412,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2017-01-01 12:00:04 - 35 Km/h</name>
+        <description>Placemark description</description>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>16.362550,48.200824,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2017-01-01 12:00:06 - 41 Km/h</name>
+        <description>Placemark description</description>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>16.363825,48.201236,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2017-01-01 12:00:08 - 46 Km/h</name>
+        <description>Placemark description</description>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>16.365100,48.201648,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2017-01-01 12:00:10 - 48 Km/h</name>
+        <description>Placemark description</description>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>16.366375,48.202060,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2017-01-01 12:00:12 - 47 Km/h</name>
+        <description>Placemark description</description>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>16.367650,48.202472,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2017-01-01 12:00:14 - 43 Km/h</name>
+        <description>Placemark description</description>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>16.368925,48.202884,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2017-01-01 12:00:16 - 38 Km/h</name>
+        <description>Placemark description</description>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>16.370200,48.203296,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2017-01-01 12:00:18 - 30 Km/h</name>
+        <description>Placemark description</description>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>16.371475,48.203708,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Route layer title</name>
+      <Placemark>
+        <name>Placemark name</name>
+        <description>Placemark description</description>
+        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+        </LineString>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>16.360000,48.200000,0
+16.361275,48.200412,0
+16.362550,48.200824,0
+16.363825,48.201236,0
+16.365100,48.201648,0
+16.366375,48.202060,0
+16.367650,48.202472,0
+16.368925,48.202884,0
+16.370200,48.203296,0
+16.371475,48.203708,0
+</coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
